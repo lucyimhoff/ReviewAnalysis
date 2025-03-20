@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class ReviewAnalysis{
     private Review[] allReviews;
 
@@ -15,6 +16,13 @@ public class ReviewAnalysis{
     }
 
     public ArrayList<String> collectComments(){
+        ArrayList<String> comments = new ArrayList<String>();
+        for(int i = 0; i < allReviews.length; i++){
+            
+        }
+            
+        }
+
 
     }
 }
